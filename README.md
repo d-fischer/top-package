@@ -19,8 +19,8 @@ or using npm:
 ```js
 import getTopPackagePath from 'top-package';
 
-// suppose that your package is in /home/you/projects/my-cool-ui/node_modules/your-awesome-lib
-// and the current working directory is /home/you/projects/my-cool-ui/node_modules/your-awesome-lib/lib/util
+// suppose that your package is in /home/you/projects/cool-ui/node_modules/your-awesome-lib
+// and the current working directory is /home/you/projects/cool-ui/node_modules/your-awesome-lib/lib/util
 // first, we need to get to the root of your package if we're not already there
 const currentPackagePath = '../..';
 
