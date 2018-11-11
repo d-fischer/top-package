@@ -37,7 +37,7 @@ const topPackagePath = getTopPackagePath(currentPagePath);
 `import getTopPackagePath from 'top-package';`
 
 #### currentPackagePath
-Type: `string`
+Type: `string`  
 Default: `'.'`
 
 Path to the root of your package. Can be relative (to the current working directory)
@@ -52,13 +52,13 @@ Type: `string`
 `import {getTopPackageDependencies} from 'top-package';`
 
 #### currentPackagePath
-Type: `string`
+Type: `string`  
 Default: `'.'`
 
 Path to the root of your package. Can be relative (to the current working directory)
 
 #### dev
-Type: `boolean`
+Type: `boolean`  
 Default: `false`
 
 Whether to get the dev dependencies of the top package. By default, this function gets the "regular" dependencies.
