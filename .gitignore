@@ -1,0 +1,6 @@
+# no need for this, we have no dependencies
+package-lock.json
+
+# various IDE project files, you are free to add your own here
+.idea
+.vscode
